@@ -1,0 +1,22 @@
+{
+  "model_info": {
+    "dnn_input_dim": 41,
+    "autoencoder_encoding_dim": 16,
+    "dnn_architecture": "128-64-32-1",
+    "autoencoder_architecture": "64-32-16-32-64-41"
+  },
+  "preprocessing_info": {
+    "categorical_features": [
+      "protocol_type",
+      "service",
+      "flag"
+    ],
+    "numerical_features_count": 38,
+    "scaler_type": "StandardScaler"
+  },
+  "performance_info": {
+    "dnn_accuracy": 0.792583392476934,
+    "anomaly_f1": 0.8487169666794332
+  },
+  "timestamp": 1771848992.1471727
+}
