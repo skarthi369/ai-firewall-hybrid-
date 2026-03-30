@@ -97,6 +97,6 @@ if uploaded_file is not None:
         col2.metric("Threats Blocked", blocked)
         col3.metric("Normal Allowed", len(results_df) - blocked)
         
-        st.dataframe(results_df, use_container_width=True)
+        st.dataframe(results_df, width="stretch")
 else:
     st.info("👈 Please upload a CSV file with network traffic features to begin.")

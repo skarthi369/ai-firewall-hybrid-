@@ -1,0 +1,20 @@
+{
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.example.com",
+    "smtp_port": 587,
+    "username": "user@example.com",
+    "password": "CHANGEME",
+    "from": "firewall@example.com",
+    "to": ["admin@example.com"]
+  },
+  "slack": {
+    "enabled": false,
+    "webhook_url": ""
+  },
+  "thresholds": {
+    "blocked_per_minute": 10,
+    "alerts_per_minute": 5,
+    "bandwidth_mbps": 100
+  }
+}
